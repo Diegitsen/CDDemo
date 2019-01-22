@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.RegistrarUsuarioFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="15dp">
+
+        <TextView
+            android:id="@+id/tvRegistrarU"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar Usuarios"
+            android:textSize="30dp"
+            android:layout_marginBottom="25dp"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/etDocumento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Documento" />
+
+        <EditText
+            android:id="@+id/etNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre" />
+
+        <EditText
+            android:id="@+id/etProfesion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Profesion" />
+
+        <Button
+            android:id="@+id/bRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar"/>
+
+    </LinearLayout>
+
+
+
+</FrameLayout>
